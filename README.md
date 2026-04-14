@@ -50,7 +50,6 @@ El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores
 ---
 
 ## Estructura del proyecto
-
 ```text
 /canva-skill/
 │
@@ -86,12 +85,12 @@ El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores
 
 El framework guía al modelo para:
 
-1. Interpretar el requerimiento del usuario  
-2. Seleccionar automáticamente la tecnología adecuada  
-3. Elegir el modo correcto (Docente / Dev / Prototipo)  
-4. Generar código limpio, encapsulado y autocontenido  
-5. Validarlo antes de entregarlo  
-6. Optimizarlo para Canva y embeds web  
+1. Interpretar el requerimiento del usuario 
+2. Seleccionar automáticamente la tecnología adecuada 
+3. Elegir el modo correcto (Docente / Dev / Prototipo) 
+4. Generar código limpio, encapsulado y autocontenido 
+5. Validarlo antes de entregarlo 
+6. Optimizarlo para Canva y embeds web 
 
 ---
 
@@ -181,10 +180,10 @@ Resultado esperado:
 
 El repositorio incluye plantillas base para:
 
-- Widgets interactivos  
-- Animaciones Canvas  
-- Simuladores  
-- Componentes HTML/CSS/JS  
+- Widgets interactivos 
+- Animaciones Canvas 
+- Simuladores 
+- Componentes HTML/CSS/JS 
 
 Estas plantillas garantizan consistencia y calidad en cada generación.
 
@@ -194,15 +193,15 @@ Estas plantillas garantizan consistencia y calidad en cada generación.
 
 Antes de entregar código, el modelo verifica:
 
-- [ ] ¿Es autocontenido?  
-- [ ] ¿Sin dependencias externas?  
-- [ ] ¿Sin variables globales?  
-- [ ] ¿Encapsulado en clase?  
-- [ ] ¿Incluye init/render/update/events?  
-- [ ] ¿Es responsive?  
-- [ ] ¿Canvas tiene fallback?  
-- [ ] ¿Compatible con Canva embed?  
-- [ ] ¿Cumple el modo (Docente/Dev/Prototipo)?  
+- [ ] ¿Es autocontenido? 
+- [ ] ¿Sin dependencias externas? 
+- [ ] ¿Sin variables globales? 
+- [ ] ¿Encapsulado en clase? 
+- [ ] ¿Incluye init/render/update/events? 
+- [ ] ¿Es responsive? 
+- [ ] ¿Canvas tiene fallback? 
+- [ ] ¿Compatible con Canva embed? 
+- [ ] ¿Cumple el modo (Docente/Dev/Prototipo)? 
 
 ---
 
@@ -214,19 +213,35 @@ Este skill fue probado en Claude Sonnet 4.6 con los siguientes resultados:
 |--------|---------------|-------------------|-------------------|
 | "Fondo de partículas animado para Canva Code." | Prototipo Rápido | ✅ Sí | ✅ Sí |
 | "explicame paso a paso cómo hacer una calculadora..." | Docente | ✅ Sí | ✅ Sí |
+| "Calculadora de interés simple" | Docente | ✅ Sí | ✅ Sí |
+| "Fondo partículas con repulsión mouse" | Prototipo Rápido | ✅ Sí | ✅ Sí |
+| "Widget interactivo con Canvas API" | Desarrollador | ✅ Sí | ✅ Sí |
 
-**Versión testeada:** Claude Sonnet 4.6 (claude.ai)  
+**Versión testeada:** Claude Sonnet 4.6 (claude.ai) 
 **Fecha:** Abril 2026
 
 ---
 
 ## Extensiones futuras
 
-- Micro‑apps educativas exportables  
-- Dashboards interactivos  
-- Gráficos tipo charts  
-- Simuladores avanzados  
-- Integración con datos simulados  
+- Micro‑apps educativas exportables 
+- Dashboards interactivos 
+- Gráficos tipo charts 
+- Simuladores avanzados 
+- Integración con datos simulados 
+
+---
+
+## Contexto profesional
+
+Este proyecto nació como herramienta de productividad personal para acelerar la generación de componentes interactivos en entornos con restricciones de red (sin CDN, sin librerías externas).
+
+Aplicable en:
+
+- Entornos corporativos con políticas de seguridad estrictas
+- Plataformas LMS sin acceso a Internet externo
+- Presentaciones y dashboards embebidos en Canva
+- Prototipado rápido de interfaces educativas
 
 ---
 
@@ -240,7 +255,16 @@ Ver archivo [LICENSE](LICENSE) para más detalles.
 
 ## Autor
 
-**xavimape** — [@xavimape](https://github.com/xavimape)
+Javier Mapelli — [@xavimape](https://github.com/xavimape)  
+Analista en Ciberseguridad | Dirección de Ciberdefensa · Ejército Argentino  
+Desarrollador frontend autodidacta con foco en herramientas interactivas, visualización de datos y componentes embebibles.
+
+Áreas de interés:
+
+- Ciberseguridad ofensiva y defensiva
+- Frontend sin dependencias (Vanilla JS / Canvas API)
+- Automatización con Python
+- Machine Learning aplicado
 
 Framework diseñado para potenciar la creación de UI interactiva embebible en Canva, con enfoque en:
 
