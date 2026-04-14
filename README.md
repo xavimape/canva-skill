@@ -19,12 +19,13 @@ El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores
 
 ---
 
-## 📚 Tabla de contenidos
+## Tabla de contenidos
 
 - [Características principales](#características-principales)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [¿Cómo funciona?](#cómo-funciona)
 - [Cómo usar este skill](#-cómo-usar-este-skill)
+- [Integración con Claude](#-integración-con-claude)
 - [Ejemplos de uso](#ejemplos-de-uso)
 - [Plantillas incluidas](#plantillas-incluidas)
 - [Validación automática](#validación-automática)
@@ -93,7 +94,7 @@ El framework guía al modelo para:
 
 ---
 
-## 🚀 Cómo usar este skill
+## Cómo usar este skill
 
 1. Abrí tu herramienta de IA compatible con skills/prompts personalizados
 2. Cargá el contenido de `SKILL.md` como prompt de sistema o instrucción personalizada
@@ -104,11 +105,35 @@ El framework guía al modelo para:
 
 ---
 
+## Integración con Claude
+
+### Opción A — Claude.ai Projects (recomendado)
+1. Creá un Project en Claude.ai
+2. En "Project Instructions", pegá el contenido completo de `SKILL.md`
+3. Subí como archivos del proyecto los `.md` de `templates/` y `utils/`
+4. Desde ese project, usá directamente los prompts de la carpeta `prompts/`
+
+### Opción B — Claude Code en VS Code
+1. Cloná este repositorio en tu proyecto
+2. El archivo `CLAUDE.md` se carga automáticamente como contexto
+3. Podés referenciar templates con: "usá la template base-canvas.md"
+
+### Opción C — Cualquier interfaz compatible con system prompts
+1. Copiá el contenido de `SKILL.md` como instrucción de sistema
+2. Iniciá la conversación con el prompt de ejemplo del componente que necesitás
+
+### Tips para mejores resultados con Claude
+- Especificá el modo al inicio: `[MODO: Docente]` o `[MODO: Dev]`
+- Si el resultado no está bien encapsulado, agregá: "recordá usar la estructura init/render/update/events"
+- Para proyectos complejos, pedí primero el esqueleto y luego los métodos por separado
+
+---
+
 ## Ejemplos de uso
 
 ### 1. Contador interactivo
 
-> 💬 **Prompt de ejemplo:**
+> **Prompt de ejemplo:**
 > ```
 > Generá un contador interactivo para Canva.
 > ```
@@ -123,7 +148,7 @@ Resultado esperado:
 
 ### 2. Fondo de partículas animado
 
-> 💬 **Prompt de ejemplo:**
+> **Prompt de ejemplo:**
 > ```
 > Fondo de partículas animado para Canva Code.
 > ```
@@ -138,7 +163,7 @@ Resultado esperado:
 
 ### 3. Calculadora de interés simple
 
-> 💬 **Prompt de ejemplo:**
+> **Prompt de ejemplo:**
 > ```
 > Calculadora de interés simple.
 > ```
@@ -204,7 +229,7 @@ Ver archivo [LICENSE](LICENSE) para más detalles.
 
 Framework diseñado para potenciar la creación de UI interactiva embebible en Canva, con enfoque en:
 
-- 🎓 Educación
-- ⚡ Prototipado rápido
-- 💻 Desarrollo frontend
-- 📊 Visualizaciones dinámicas
+- Educación
+- Prototipado rápido
+- Desarrollo frontend
+- Visualizaciones dinámicas
