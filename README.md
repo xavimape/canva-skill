@@ -29,6 +29,7 @@ El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores
 - [Ejemplos de uso](#ejemplos-de-uso)
 - [Plantillas incluidas](#plantillas-incluidas)
 - [Validación automática](#validación-automática)
+- [Validado en producción](#validado-en-producción)
 - [Extensiones futuras](#extensiones-futuras)
 - [Licencia](#licencia)
 - [Autor](#autor)
@@ -202,6 +203,20 @@ Antes de entregar código, el modelo verifica:
 - [ ] ¿Canvas tiene fallback?  
 - [ ] ¿Compatible con Canva embed?  
 - [ ] ¿Cumple el modo (Docente/Dev/Prototipo)?  
+
+---
+
+## Validado en producción
+
+Este skill fue probado en Claude Sonnet 4.6 con los siguientes resultados:
+
+| Prompt | Modo detectado | ¿Código correcto? | ¿Formato cumplido? |
+|--------|---------------|-------------------|-------------------|
+| "Fondo de partículas animado para Canva Code." | Prototipo Rápido | ✅ Sí | ✅ Sí |
+| "explicame paso a paso cómo hacer una calculadora..." | Docente | ✅ Sí | ✅ Sí |
+
+**Versión testeada:** Claude Sonnet 4.6 (claude.ai)  
+**Fecha:** Abril 2026
 
 ---
 
