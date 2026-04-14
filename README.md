@@ -1,4 +1,10 @@
 # Canva Interactive UI Framework
+
+![GitHub last commit](https://img.shields.io/github/last-commit/xavimape/canva-skill)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Canva](https://img.shields.io/badge/Canva-Compatible-blueviolet)
+![No dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
+
 Framework profesional para generar componentes interactivos embebibles en **Canva**, LMS y entornos web usando **HTML, CSS, JavaScript y Canvas API**, sin dependencias externas.
 
 Este repositorio contiene:
@@ -10,6 +16,21 @@ Este repositorio contiene:
 - Estructura modular estilo SDK
 
 El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores y micro‑apps** listas para producción.
+
+---
+
+## 📚 Tabla de contenidos
+
+- [Características principales](#características-principales)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [¿Cómo funciona?](#cómo-funciona)
+- [Cómo usar este skill](#-cómo-usar-este-skill)
+- [Ejemplos de uso](#ejemplos-de-uso)
+- [Plantillas incluidas](#plantillas-incluidas)
+- [Validación automática](#validación-automática)
+- [Extensiones futuras](#extensiones-futuras)
+- [Licencia](#licencia)
+- [Autor](#autor)
 
 ---
 
@@ -28,6 +49,7 @@ El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores
 
 ## Estructura del proyecto
 
+```text
 /canva-skill/
 │
 ├── README.md
@@ -54,7 +76,7 @@ El objetivo es permitir que un modelo genere **widgets, animaciones, simuladores
 └── assets/
     ├── logo.svg
     └── banner.svg
-
+```
 
 ---
 
@@ -71,12 +93,25 @@ El framework guía al modelo para:
 
 ---
 
+## 🚀 Cómo usar este skill
+
+1. Abrí tu herramienta de IA compatible con skills/prompts personalizados
+2. Cargá el contenido de `SKILL.md` como prompt de sistema o instrucción personalizada
+3. Usá los prompts de la carpeta `prompts/` como puntos de partida
+4. El modelo generará código listo para pegar en **Canva Code**
+
+> **Tip:** Para mejores resultados, especificá el modo deseado: *Docente*, *Desarrollador* o *Prototipo Rápido*.
+
+---
+
 ## Ejemplos de uso
 
 ### 1. Contador interactivo
 
-Generá un contador interactivo para Canva.
-
+> 💬 **Prompt de ejemplo:**
+> ```
+> Generá un contador interactivo para Canva.
+> ```
 
 Resultado esperado:
 - HTML + CSS + JS
@@ -88,8 +123,10 @@ Resultado esperado:
 
 ### 2. Fondo de partículas animado
 
-Fondo de partículas animado para Canva Code.
-
+> 💬 **Prompt de ejemplo:**
+> ```
+> Fondo de partículas animado para Canva Code.
+> ```
 
 Resultado esperado:
 - Canvas
@@ -101,8 +138,10 @@ Resultado esperado:
 
 ### 3. Calculadora de interés simple
 
-Calculadora de interés simple.
-
+> 💬 **Prompt de ejemplo:**
+> ```
+> Calculadora de interés simple.
+> ```
 
 Resultado esperado:
 - Inputs
@@ -153,15 +192,19 @@ Antes de entregar código, el modelo verifica:
 
 ## Licencia
 
-Este framework puede usarse libremente para proyectos educativos, prototipado, investigación y desarrollo frontend.
+Este proyecto está bajo la licencia **MIT**. Podés usarlo libremente para proyectos educativos, prototipado, investigación y desarrollo frontend.
+
+Ver archivo [LICENSE](LICENSE) para más detalles.
 
 ---
 
 ## Autor
 
+**xavimape** — [@xavimape](https://github.com/xavimape)
+
 Framework diseñado para potenciar la creación de UI interactiva embebible en Canva, con enfoque en:
 
-- Educación  
-- Prototipado rápido  
-- Desarrollo frontend  
-- Visualizaciones dinámicas  
+- 🎓 Educación
+- ⚡ Prototipado rápido
+- 💻 Desarrollo frontend
+- 📊 Visualizaciones dinámicas
